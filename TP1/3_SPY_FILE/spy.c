@@ -17,11 +17,15 @@ int main(int argc, char **argv) {
 		exit(1);	
 	}
 	
-	
+	cflush(ptr);
 	while(1) {
 		//Maintenant que je connais plus ou moins les valeurs en temps de cycle des cache it et cash miss , apres avoir attendu un certains temps et en reverifiant 
 		// le temps d acces en cycle je peux savoir si quelqu un à acceder à la donnée
-		
+		t = memeaccesstime(ptr);
+		if(t<150){
+			pritnf("cache hit \n");
+		}
+		delay(10000000);
 		
 		
 	}
