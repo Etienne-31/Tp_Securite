@@ -1,0 +1,4 @@
+Question 6 
+
+Question 7 
+On remplace le premier ? par J car le j va représenter quelle fun_ on va appeler et k va représenter son offset 
